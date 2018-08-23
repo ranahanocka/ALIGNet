@@ -1,0 +1,116 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ALIGNet</title>
+
+    <!-- CSS includes -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="mainpage.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="header" class="container-fluid">
+    <div class="row">
+        <h1><span style="font-size:36px">ALIGNet: Partial-Shape Agnostic Alignment via Unsupervised Learning</span></h1>
+        <div class="authors">
+            <span style="font-size:18px"><a href="https://www.cs.tau.ac.il/~hanocka/" target="new">Rana Hanocka<sup>1</sup></a></span>
+            &nbsp;
+            <span style="font-size:18px"><a href="https://www.cs.tau.ac.il/~noafish/" target="new">Noa Fish<sup>1</sup></a></span>
+            &nbsp;
+            <span style="font-size:18px"><a href="http://zhwang.me/" target="new">Zhenhua Wang<sup>2</sup></a></span>
+            &nbsp;
+            <span style="font-size:18px"><a href="http://web.eng.tau.ac.il/~raja/" target="new">Raja Giryes<sup>1</sup></a></span>
+            &nbsp;
+            <span style="font-size:18px"><a href="https://scholar.google.co.il/citations?user=nEpKS-8AAAAJ&hl=en" target="new">Shachar Fleishman<sup>3</sup></a></span>
+            &nbsp;
+            <span style="font-size:18px"><a href="https://www.cs.tau.ac.il/~dcor/" target="new">Daniel Cohen-Or<sup>1</sup></a></span>
+            <br>
+            <span style="font-size:18px"><sup>1</sup>Tel Aviv University &nbsp;&nbsp;&nbsp; <sup>2</sup>Hebrew University &nbsp;&nbsp;&nbsp;<sup>3</sup>Intel Corporation<br><br></span>
+        </div>
+
+    </div>
+
+
+          <table align=center width=240px>
+              <tr>
+                  <td align=center width=50px>
+                    <center>
+                        <span style="font-size:24px"><a href='https://bit.ly/alignet'>[Paper]</a>
+                    </center>
+                  </td>
+                  <td align=center width=160px>
+                    <center>
+                        <span style="font-size:24px"><a href='https://github.com/ranahanocka/ALIGNet'>[GitHub]</a></span>
+                    </center>
+                  </td>
+          </table>
+      </center>
+
+
+
+    <div class="row" id="game-images" style="text-align:center;padding:0;margin:0">
+          <div class="containere" id="image-containexr">
+            <img class="" src = "pumpkins.png" height="190px"></img> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <img class="" src = "vases.png" height="180px"></img><br>              
+              <br>
+          </div>
+    </div> 
+
+</div>
+
+<div class="container">
+    <h2>Abstract</h2>
+    The process of aligning a pair of shapes is a fundamental operation in
+    computer graphics. Traditional approaches rely heavily on matching corresponding
+    points or features to guide the alignment, a paradigm that falters
+    when significant shape portions are missing. These techniques generally
+    do not incorporate prior knowledge about expected shape characteristics,
+    which can help compensate for any misleading cues left by inaccuracies
+    exhibited in the input shapes. We present an approach based on a deep
+    neural network, leveraging shape datasets to learn a shape-aware prior for
+    source-to-target alignment that is robust to shape incompleteness. In the
+    absence of ground truth alignments for supervision, we train a network on
+    the task of shape alignment using incomplete shapes generated from full
+    shapes for self-supervision. Our network, called ALIGNet, is trained to warp
+    complete source shapes to incomplete targets, as if the target shapes were
+    complete, thus essentially rendering the alignment partial-shape agnostic.
+    We aim for the network to develop specialized expertise over the common
+    characteristics of the shapes in each dataset, thereby achieving a higher-level
+    understanding of the expected shape space to which a local approach would
+    be oblivious. We constrain ALIGNet through an anisotropic total variation
+    identity regularization to promote piecewise smooth deformation fields, facilitating
+    both partial-shape agnosticism and post-deformation applications.
+    We demonstrate that ALIGNet learns to align geometrically distinct shapes,
+    and is able to infer plausible mappings even when the target shape is significantly
+    incomplete. We show that our network learns the common expected
+    characteristics of shape collections, without over-fitting or memorization,
+    enabling it to produce plausible deformations on unseen data during test
+    time.
+</div>
+
+<div class="container" >
+    <h2>Paper</h2>
+    <div>
+    <a href="https://bit.ly/alignet" target="new">PDF</a>; To appear in Transactions on Graphics (TOG) 2018<br><br>
+         <pre class="citation">@article{hanocka2018alignet,
+  title={ALIGNet: Partial-Shape Agnostic Alignment via Unsupervised Learning},
+  author={Hanocka, Rana and Fish, Noa and Wang, Zhenhua and Giryes, Raja and Fleishman, Shachar and Cohen-Or, Daniel},
+  journal={arXiv preprint arXiv:1804.08497},
+  year={2018}}
+         </pre>
+     </div>
+</div>
+<div class="container" >
+  <h2>Contact</h2>
+  <div>
+  Rana at Hanocka dot com</a>
+  </div>
+</div>
+
+<div id="footer">
+</div>
+
+<!-- Javascript includes -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+</body></html>
