@@ -27,7 +27,7 @@ chmod +x install.sh
 # Training
 - download the data
 ```bash
-chmod +x getpretrained.sh
+chmod +x download_data.sh
 ./download_data.sh
 ```
 - run training
