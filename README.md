@@ -8,7 +8,7 @@ This repo is still a work in progress
 # Setup
 ### Prerequisites
 - Linux (tested on Ubuntu 16.04, 14.04 and Linux Mint)
-- NVIDIA GPU + CUDA (tested on cuda8 and cuda7.5)
+- NVIDIA GPU + CUDA (tested on cuda8 and cuda7.5) *should also work on CPU*
 
 ### Getting Started
 - Clone this repo:
@@ -22,18 +22,12 @@ sudo ls
 chmod +x install.sh
 ./install.sh
 ```
-### Run demo *in progress*
-- get pretrained model 
-```bash
-cd demo
-chmod +x getpretrained.sh
-./getpretrained.sh
-```
+
 
 # Training
 - download the data
 ```bash
-chmod +x getpretrained.sh
+chmod +x download_data.sh
 ./download_data.sh
 ```
 - run training
