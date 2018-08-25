@@ -4,7 +4,11 @@ This is our Torch implementation for ALIGNet, which is a network trained to alig
 
 <img src="docs/rep.png" width="450px"/> 
 
-This repo is still a work in progress
+where the pink region is a missing piece in the target shape. The estimated alignments are oblivious to missing pieces in the partial shape. 
+
+The code was written by [Rana Hanocka](https://www.cs.tau.ac.il/~hanocka/) with support from [Zhenhua Wang](http://zhwang.me) and [Noa Fish](http://www.cs.tau.ac.il/~noafish/).
+
+*This repo is still under active development*
 # Setup
 ### Prerequisites
 - Linux (tested on Ubuntu 16.04, 14.04 and Linux Mint)
