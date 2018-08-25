@@ -1,4 +1,5 @@
-# ALIGNet in Torch
+# ALIGNet <img src="https://dl.dropboxusercontent.com/s/anyszxm1phvdjfh/orig.png?dl=0" width="50px"/> in Torch
+
 [[Project]](https://ranahanocka.github.io/ALIGNet/)   [[Arxiv]](https://bit.ly/alignet) <br>
 This is our Torch implementation for ALIGNet, which is a network trained to align pairs of shapes without needing ground-truth warp fields for supervision. For example:
 
