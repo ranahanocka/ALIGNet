@@ -6,7 +6,7 @@ This is our Torch implementation for ALIGNet, which is a network trained to alig
 
 where the pink region is a missing piece in the target shape. The estimated alignments are oblivious to missing pieces in the partial shape. 
 
-The code was written by [Rana Hanocka](https://www.cs.tau.ac.il/~hanocka/) with support from [Zhenhua Wang](http://zhwang.me) and [Noa Fish](http://www.cs.tau.ac.il/~noafish/).
+The code was written by [Rana Hanocka](https://www.cs.tau.ac.il/~hanocka/) with support from [Noa Fish](http://www.cs.tau.ac.il/~noafish/) and [Zhenhua Wang](http://zhwang.me).
 
 *This repo is still under active development*
 # Setup
