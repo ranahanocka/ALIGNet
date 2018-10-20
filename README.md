@@ -1,11 +1,18 @@
 # ALIGNet <img src="https://dl.dropboxusercontent.com/s/anyszxm1phvdjfh/orig.png?dl=0" width="50px"/> in Torch
 
 [[Project]](https://ranahanocka.github.io/ALIGNet/)   [[Arxiv]](https://bit.ly/alignet) <br>
-This is our Torch implementation for ALIGNet, which is a network trained to align pairs of shapes without needing ground-truth warp fields for supervision. For example:
+ALIGNet is a network trained to align pairs of shapes using a learned data-driven prior, and doesn't need ground-truth warp fields for supervision. 
+
+### High-Level Idea
+If I asked you to align the blue shape to the orange one: your prior knowledge about the letter "H" enables you to align the shape, even in the missing region:
+
+<img src="docs/morphing_H.gif" width="450px"/> 
+
+Some results:
 
 <img src="docs/rep.png" width="450px"/> 
 
-where the pink region is a missing piece in the target shape. The estimated alignments are oblivious to missing pieces in the partial shape. 
+where the pink region is a visualization of the missing piece in the target shape. The estimated alignments are oblivious to missing pieces in the partial shape. 
 
 The code was written by [Rana Hanocka](https://www.cs.tau.ac.il/~hanocka/) with support from [Noa Fish](http://www.cs.tau.ac.il/~noafish/) and [Zhenhua Wang](http://zhwang.me).
 
