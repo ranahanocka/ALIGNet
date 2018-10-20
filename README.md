@@ -8,6 +8,7 @@ If I asked you to align the blue shape to the orange one: your prior knowledge a
 
 <img src="docs/morphing_H.gif" width="450px"/> 
 
+ALIGNet learns a data-driven prior which guides the alignment both in the missing and complete regions of the shape.
 Some results:
 
 <img src="docs/rep.png" width="450px"/> 
