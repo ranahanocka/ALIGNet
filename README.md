@@ -4,9 +4,9 @@
 ALIGNet is a network trained to align pairs of shapes using a learned data-driven prior, and doesn't need ground-truth warp fields for supervision. 
 
 ### High-Level Idea
-If I asked you to align the blue shape to the orange one: your prior knowledge about the letter "H" enables you to align the shape, even in the missing region:
+If I asked you to deform the blue "H" to the the orange "H",  you will be able to perform the deformation even where the "H" has a missing piece due to your prior knowledge about the letter H
 
-<img src="docs/morphing_H.gif" width="450px"/> 
+<img src="https://www.dropbox.com/s/4o4omqoca5snrp9/output.gif?raw=1" width="450px"/> 
 
 ALIGNet learns a data-driven prior which guides the alignment both in the missing and complete regions of the shape.
 Some results:
