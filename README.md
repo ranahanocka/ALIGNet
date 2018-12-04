@@ -1,9 +1,9 @@
 # ALIGNet <img src="https://dl.dropboxusercontent.com/s/anyszxm1phvdjfh/orig.png?dl=0" width="50px"/> in Torch
 
 [[Project]](https://ranahanocka.github.io/ALIGNet/)   [[Arxiv]](https://bit.ly/alignet) <br>
-ALIGNet is a network trained to align pairs of shapes using a learned data-driven prior, and doesn't need ground-truth warp fields for supervision. 
+ALIGNet is a network trained to register pairs of shapes using a learned data-driven prior, and doesn't need ground-truth warp fields for supervision. 
 
-### High-Level Idea
+### Key Idea
 If I asked you to deform the blue "H" to the the orange "H",  you will be able to perform the deformation even where the "H" has a missing piece due to your prior knowledge about the letter H
 
 <img src="https://www.dropbox.com/s/4o4omqoca5snrp9/output.gif?raw=1" width="450px"/> 
