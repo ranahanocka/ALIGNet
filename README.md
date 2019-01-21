@@ -50,15 +50,18 @@ th main.lua -data /path/to/data
 
 
 # Citation
-If you use this code for your research, please cite our paper
+If you find this code useful, please consider citing our paper
 ```
 @article{hanocka2018alignet,
-  title={ALIGNet: Partial-Shape Agnostic Alignment via Unsupervised Learning},
-  author={Hanocka, Rana and Fish, Noa and Wang, Zhenhua and Giryes, Raja and Fleishman, Shachar and Cohen-Or, Daniel},
-  journal={arXiv preprint arXiv:1804.08497},
-  year={2018}}
+ author = {Hanocka, Rana and Fish, Noa and Wang, Zhenhua and Giryes, Raja and Fleishman, Shachar and Cohen-Or, Daniel},
+ title = {ALIGNet: Partial-Shape Agnostic Alignment via Unsupervised Learning},
+ journal = {ACM Trans. Graph.},
+ year = {2018}}
 
 ```
+
+# Contributing
+Contributions to this repository are very welcome. Open an issue if you: have problems running the code, want to suggest improvements, or want to submit a pull request.
 
 # Acknowledgments
 The code design and multithreading data loading capabilities used in this code were adopted from [imagenet-multiGPU.torch](https://github.com/soumith/imagenet-multiGPU.torch).
