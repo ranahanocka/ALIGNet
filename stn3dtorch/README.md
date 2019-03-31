@@ -7,3 +7,8 @@ git clone https://github.com/ranahanocka/stn3dtorch.git
 cd stn3dtorch
 luarocks make stn3dtorch-scm-1.rockspec
 ```
+
+if everything went well, this import should work:
+```bash
+require 'volstn'
+```
